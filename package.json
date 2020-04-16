@@ -1,0 +1,33 @@
+{
+	"name": "demonlord",
+	"displayName": "demonlord Color Theme",
+	"description": "Dark Color Theme for VS Code",
+	"version": "0.1.0",
+	"publisher": "mpg",
+	"engines": {
+		"vscode": "^1.10.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"atom",
+		"dark",
+		"one dark"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/michaelperrygoodman/demonlord-theme-vscode"
+	},
+	"icon": "images/icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "demonlord",
+				"uiTheme": "vs-dark",
+				"path": "./themes/demonlord-color-theme.json"
+			}
+		]
+	}
+}
